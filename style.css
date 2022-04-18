@@ -23,3 +23,12 @@ a {
     color: black;
     height: 60px;
 }
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0px 30px;
+    margin-right: 60px;
+}
