@@ -48,3 +48,7 @@ a {
     font-size: 2rem;
     font-style: oblique;
 }
+
+#logo a {
+    color: black;   
+}
