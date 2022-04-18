@@ -15,7 +15,11 @@ It will contain:
 
 As usual I will begin with adding a boilerplate onto the index.html file.
 then, I will anchor the style.css file.
--
+
+>
+
+index.html:>
+
 NAVBAR:
        so the navbar will contain the respective items mention above, in order to do that i need to add a html tag, in this case a nav class to hold a div of Logo for the logo and a unordered list class under the name of "nav" for the links.
        Also, I believe under what i think its right, that in order to have my logo centered and two of the links to the left and two to the right; on index. I have to write the first two links, then the logo and then, the last two links. For them to be as mentioned. 
@@ -35,3 +39,13 @@ SECTION-2:
 FOOTER: 
        The footer will hold the "copyright" stamp and 3 items (three), one of them a link.
        The idea: 2 non-links items on the LEFT, the stamp will be centered and the item with the link on the RIGHT.
+
+>
+
+style.css:>
+
+As a start, I will five some general properties (*) to the whole page. boz-sizing-padding-and margin
+then I will add some properties to the <body>.
+
+NAVBAR:
+       
