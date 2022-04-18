@@ -14,3 +14,9 @@ body {
     background-color: rgb(226, 226, 226);
 }
 
+
+.navbar {
+    background-color: rgba(100, 100, 100, 0.452);
+    color: black;
+    height: 60px;
+}
