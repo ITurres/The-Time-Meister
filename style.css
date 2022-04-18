@@ -14,6 +14,13 @@ body {
     background-color: rgb(226, 226, 226);
 }
 
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
 
 .navbar {
     background-color: rgba(100, 100, 100, 0.452);
