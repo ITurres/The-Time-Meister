@@ -45,7 +45,7 @@ FOOTER:
 style.css:>
 
 As a start, I will five some general properties (*) to the whole page. boz-sizing-padding-and margin
-then I will add some properties to the <body>.
+then I will add some properties to the <body>. also I will add flexbox to body so  it will push the footer to the bottom.
 
 NAVBAR:
        
