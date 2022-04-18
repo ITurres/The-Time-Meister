@@ -31,3 +31,7 @@ SECTION:
 SECTION-2: 
           On the other hand, this section will only hold a small tittle, under it, will be an image and below it will go a small text.
           *- The idea in this case will be to have the image centered in the container, with the tittle in bold on top and the small text on the foot of the image.       
+
+FOOTER: 
+       The footer will hold the "copyright" stamp and 3 items (three), one of them a link.
+       The idea: 2 non-links items on the LEFT, the stamp will be centered and the item with the link on the RIGHT.
