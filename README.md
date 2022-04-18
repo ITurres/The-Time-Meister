@@ -28,4 +28,6 @@ SECTION:
         Then, ill <div> texts, images and a button for each one of the items.
         *-The idea is, to have some text on the LEFT, right to the text the image and below the text will go the button. (same for all items).
 
-.        
+SECTION-2: 
+          On the other hand, this section will only hold a small tittle, under it, will be an image and below it will go a small text.
+          *- The idea in this case will be to have the image centered in the container, with the tittle in bold on top and the small text on the foot of the image.       
