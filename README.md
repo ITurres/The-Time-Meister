@@ -47,7 +47,8 @@ style.css:>
 As a start, I will five some general properties (*) to the whole page. boz-sizing-padding-and margin
 then I will add some properties to the <body>. also I will add flexbox to body so  it will push the footer to the bottom.
 
-NAVBAR: after given some background color,a font color and a height, i will start giving properties to <nav> class into the navbar.
+NAVBAR: 
+       after given some background color,a font color and a height, i will start giving properties to <nav> class into the navbar.
 
 IMPORTANT!!> I had troubles finding out how to edit the HTML in order to get two links on the left, the logo centered and two more links on the right. But after playing around and consulting stack overflow, I found this possible solution that at the moment is working fine.
 
@@ -68,4 +69,9 @@ SAVE THIS SCHEME FOR FUTURE REFERENCES:
     </div>
 >
 This will do.
-       
+~~~~~~~~~
+
+19/04/2022.-
+
+Today I will continue working with the navbar, i want to set the .header-image behind the navbar and make the navbar translucent, as well as give some hover color to the links.
+
