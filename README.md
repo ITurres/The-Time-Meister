@@ -73,5 +73,10 @@ This will do.
 
 19/04/2022.-
 
+NAVBAR:
+
 Today I will continue working with the navbar, i want to set the .header-image behind the navbar and make the navbar translucent, as well as give some hover color to the links.
 
+>After a short research online, i couldn't find an answer, but!, after playing around with css, i realized that in order to do what i need, i have to add a property call> -Position: absolute- TO the navbar class (NOT TO THE HEADER CLASS), so this goes on top of the image that was below. 
+
+After doing this, the navbar will lose its auto width, so in order to have it taking all the space available, will need a width property of 100%. Also add a width of 100% to img so it takes all the screen available as wanted.<
