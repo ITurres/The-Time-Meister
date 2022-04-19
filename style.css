@@ -22,6 +22,8 @@ a {
     background-color: rgba(100, 100, 100, 0.452);
     color: black;
     height: 60px;
+    position: absolute;
+    width: 100%;
 }
 
 .navbar nav {
@@ -51,4 +53,8 @@ a {
 
 #logo a {
     color: black;   
+}
+
+.header img {
+    width: 100%;
 }
