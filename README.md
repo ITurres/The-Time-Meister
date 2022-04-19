@@ -75,7 +75,7 @@ This will do.
 
 NAVBAR:
 
-Today I will continue working with the navbar, i want to set the .header-image behind the navbar and make the navbar translucent, as well as give some hover color to the links.
+Today I will continue working with the navbar, i want to set the .navbar on top of an image in .header, as well as give some hover color to the links.
 
 >After a short research online, i couldn't find an answer, but!, after playing around with css, i realized that in order to do what i need, i have to add a property call> -Position: absolute- TO the navbar class (NOT TO THE HEADER CLASS), so this goes on top of the image that was below. 
 
