@@ -41,6 +41,10 @@ a {
     font-size: 17px;
 }
 
+.navbar a:hover {
+    color: rgb(17, 17, 17);
+}
+
 #logo {
     display: flex;
     justify-content: center;
