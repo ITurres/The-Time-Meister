@@ -84,3 +84,5 @@ After doing this, the navbar will lose its auto width, so in order to have it ta
 HEADER:
        Now that the navbar is on top of the image, i need the h1 title to go on top of the .header image and be centered.
        
+!>PROBLEM TO BE RESOLVE: (regarding the centered text in image in header): when I give the position:relative property to my .header class, it makes the navbar (which has property:absolute) disappear under the .header image. so i need to find a way to center my text in the image and both to be under my navbar.
+~~~~~~
