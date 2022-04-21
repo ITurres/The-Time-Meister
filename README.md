@@ -98,8 +98,11 @@ HEADER:
 
 SECTION: in every section that has a .container class will have a max-width of 1100px and i will give a margin to it... 0 for top and bottom and auto for left and right, so it will be centered.
 
-the section class will have a background color.
+*-the section class will have a background color.
 and the section img will have a max-width and padding to the left.
 
-now the container within it, i will add flexbox and wrap, so i can have the items stack. Some margin will be applied to the container as well.
+*-now the container within it, i will add flexbox and wrap, so i can have the items stack. Some margin will be applied to the container as well.
+
+*-Regarding the items within it, they will need a background color, align text, some padding to give space to the img and text, some properties to the button and font properties.
+Item (2): i want this item in a different order, the img on the left and text-button on the right.to achieve this, apply the "flex-direction: row-reverse" property.
 
