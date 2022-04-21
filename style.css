@@ -62,5 +62,11 @@ a {
 }
 
 .header img {
-    width: 100%;
+    width: auto;
 }
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
