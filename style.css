@@ -19,7 +19,7 @@ a {
 }
 
 .navbar {
-    background-color: rgba(100, 100, 100, 0.303);
+    background-color: #e7ceba6d;
     color: black;
     height: 60px;
     position: absolute;
@@ -72,7 +72,7 @@ a {
 }
 
 .section {
-    background-color: rgb(187, 185, 185);
+    background-color: #e7ceba;
 }
 
 .section img {
@@ -86,7 +86,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
-    margin-bottom: 30px;   
+    margin-bottom: 30px;
 }
 
 .item-1,
@@ -124,7 +124,7 @@ a {
 }
 
 .item-3 {
-    margin-bottom: 0px;;
+    margin-bottom: 0px;
 }
 
 section button {
