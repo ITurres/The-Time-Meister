@@ -154,3 +154,8 @@ section button:hover {
     color: rgb(18, 18, 18);
     transition-duration: 0.4s;
 }
+
+.section-2 {
+    background-color: rgb(223, 222, 222);
+}
+
