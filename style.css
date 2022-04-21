@@ -121,11 +121,17 @@ section button {
     font-family: fantasy;
     font-weight: 600;
     font-style: oblique;
-    padding: 5px 90px;
+    padding: 5px 80px;
+    width: 60%;
     margin-top: 60px;
     margin-left: 150px;
-    border: 0px;
+    border: none;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
 }
 
+section button:hover {
+    background-color: rgb(201, 201, 201);
+    color: rgb(18, 18, 18);
+    transition-duration: 0.4s;
+}
