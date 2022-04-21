@@ -104,5 +104,8 @@ and the section img will have a max-width and padding to the left.
 *-now the container within it, i will add flexbox and wrap, so i can have the items stack. Some margin will be applied to the container as well.
 
 *-Regarding the items within it, they will need a background color, align text, some padding to give space to the img and text, some properties to the button and font properties.
-Item (2): i want this item in a different order, the img on the left and text-button on the right.to achieve this, apply the "flex-direction: row-reverse" property.
+Item (2): i want this item in a different order, the img on the left and text-button on the right.to achieve this, apply the "flex-direction: row-reverse" property and modify padding values.
 
+*-Button: i want them to be away from the text and img, black and without border.
+
+the last style will be to border-radius the image and item containers.
