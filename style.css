@@ -162,3 +162,12 @@ section button:hover {
 .section-2 img {
     max-width: 300px;
 }
+
+.section-2 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
