@@ -78,13 +78,15 @@ a {
 .section img {
     max-width: 400px;
     padding-left: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .section .container {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
-    margin-bottom: 30px;    
+    margin-bottom: 30px;   
 }
 
 .item-1,
@@ -97,6 +99,8 @@ a {
     padding: 20px;
     background-color: #fff;
     font-size: large;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 .item-2 {
@@ -104,11 +108,19 @@ a {
     flex-direction: row-reverse;
     margin-bottom: 0;
     margin-bottom: 20px;
-    padding: 20px;    
+    padding: 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px; 
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;   
 }
 
 .item-2 img {
     padding: 0px 20px 0px 0px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .item-3 {
