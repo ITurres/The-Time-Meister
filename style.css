@@ -156,11 +156,12 @@ section button:hover {
 }
 
 .section-2 {
-    background-color: rgb(223, 222, 222);
+    background-color: #fff;
 }
 
 .section-2 img {
     max-width: 300px;
+    border: 5px solid rgb(201, 201, 201);
 }
 
 .section-2 .container {
@@ -170,4 +171,6 @@ section button:hover {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: #fff;
+    border: 3px solid #e7ceba;
 }
