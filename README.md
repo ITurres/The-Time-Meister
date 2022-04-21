@@ -101,5 +101,5 @@ SECTION: in every section that has a .container class will have a max-width of 1
 the section class will have a background color.
 and the section img will have a max-width and padding to the left.
 
-now the container within it, i will add flexbox and wrap, so i can have the items stack. the container will have a background color and a border with radius, some margin will be applied to the container as well.
+now the container within it, i will add flexbox and wrap, so i can have the items stack. Some margin will be applied to the container as well.
 
