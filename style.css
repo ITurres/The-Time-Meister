@@ -159,3 +159,6 @@ section button:hover {
     background-color: rgb(223, 222, 222);
 }
 
+.section-2 img {
+    max-width: 300px;
+}
