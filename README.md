@@ -77,7 +77,7 @@ SAVE THIS SCHEME FOR FUTURE REFERENCES:
     </div>
 >
 This will do.
-~~~~~~~~~
+
 
 19/04/2022.-
 
@@ -93,4 +93,13 @@ HEADER:
        Now that the navbar is on top of the image, i need the h1 title to go on top of the .header image and be centered.
        
 !>PROBLEM TO BE RESOLVE: (regarding the centered text in image in header): when I give the position:relative property to my .header class, it makes the navbar (which has property:absolute) disappear under the .header image. so i need to find a way to center my text in the image and both to be under my navbar.
-~~~~~~
+
+21/04/2022.-
+
+SECTION: in every section that has a .container class will have a max-width of 1100px and i will give a margin to it... 0 for top and bottom and auto for left and right, so it will be centered.
+
+the section class will have a background color.
+and the section img will have a max-width and padding to the left.
+
+now the container within it, i will add flexbox and wrap, so i can have the items stack. the container will have a background color and a border with radius, some margin will be applied to the container as well.
+
