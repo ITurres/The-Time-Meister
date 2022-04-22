@@ -111,7 +111,6 @@ a {
 .item-2,
 .item-3 {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
     padding: 20px;
@@ -119,6 +118,7 @@ a {
     font-size: large;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+    flex: 1;
 }
 
 .item-2 {
