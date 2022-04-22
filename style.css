@@ -200,3 +200,11 @@ section button:hover {
 h4 {
     width: 33.33%;
 }
+
+.right-link {
+    width: 33.33%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    color: #fff;
+}
