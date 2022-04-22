@@ -174,3 +174,16 @@ section button:hover {
     background-color: #fff;
     border: 3px solid #e7ceba;
 }
+
+.section-2 h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: xx-large;
+}
+
+.section-2 h3 {
+    margin: 20px 0px;
+    background-color: #e7ceba;
+    padding: 15px;
+    border-radius: 15px;
+}
