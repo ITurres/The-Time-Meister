@@ -196,3 +196,7 @@ section button:hover {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+h4 {
+    width: 33.33%;
+}
