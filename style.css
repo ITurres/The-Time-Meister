@@ -217,3 +217,9 @@ h4 {
     border-radius: 5px;
     padding: 10px;
 }
+
+.right-link a:hover {
+    color: rgb(18, 18, 18);
+    background-color: #fff;
+    border:none;
+}
