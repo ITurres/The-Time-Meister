@@ -52,6 +52,18 @@ a {
     transition: 0.2s;
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24% 0% 0% 0%;
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 3rem;
+}
+
 #logo {
     display: flex;
     justify-content: center;
