@@ -33,7 +33,7 @@ HEADER:
          
        > CSS: for the "container" give a property of position:relative.
        For the item (text in image) give a property of position:absolute, top:50% and left:50% and transform: translate(-50%, -50%);.
-       IMPORTANT: all thi will work, but will affect the navbar, causing this to disappear under the image with text. (TO BE RESOLVE)...
+       IMPORTANT: all thi will work, but will affect the navbar, causing this to disappear under the image with text. (RESOLVED)...
        
 SECTION: 
         In the case of the Section, I will open a section tag with the same name of class, then under it will go a class of container and its child will be a class of items.
@@ -92,7 +92,12 @@ After doing this, the navbar will lose its auto width, so in order to have it ta
 HEADER:
        Now that the navbar is on top of the image, i need the h1 title to go on top of the .header image and be centered.
        
-!>PROBLEM TO BE RESOLVE: (regarding the centered text in image in header): when I give the position:relative property to my .header class, it makes the navbar (which has property:absolute) disappear under the .header image. so i need to find a way to center my text in the image and both to be under my navbar.
+!>PROBLEM TO BE RESOLVE: (regarding the centered text in image in header): when I give the position:relative property to my .header class, it makes the navbar (which has property:absolute) disappear under the .header image. so i need to find a way to center my text in the image and both to be under my navbar. >RESOLVED<
+
+>SOLUTION: changes on html file: I added a div class with the name of title to my h1 text, this was place inside the <-div->.navbar class. 
+in the CSS style file: I opened the .tittle selector and added flexbox with J-C and A-I and I gave some margin to center the text as well. eh voila! 
+
+Will need media queries so the text won't bother the section below.
 
 21/04/2022.-
 
