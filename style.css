@@ -208,3 +208,12 @@ h4 {
     padding-right: 30px;
     color: #fff;
 }
+
+.right-link a {
+    background-color: #e7ceba;
+    border: 3px solid #fff;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 10px;
+}
