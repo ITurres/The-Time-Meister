@@ -111,4 +111,6 @@ Item (2): i want this item in a different order, the img on the left and text-bu
 the last style will be to border-radius the image and item containers.
 
 SECTION-2:
-          For this section, the background will be a light gray. i will need to edit the html a bit so when i add flexbox to the container the h1-img-h3 won't be in a row...OR ADD flex-direction: column> to the container will keep them stack. 
+          For this section, the background will white. i will need to edit the html a bit so when i add flexbox to the container the h1-img-h3 won't be in a row...OR ADD flex-direction: column> to the container will keep them stack. 
+
+          I will add some bg color, font color, size, padding etc to make it mor cheerful.
