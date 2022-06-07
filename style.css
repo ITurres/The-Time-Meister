@@ -117,7 +117,8 @@ a {
     align-items: center;
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background: linear-gradient(-90deg, #fff, #fff, #fff, #e7ceba);
     font-size: large;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
@@ -127,6 +128,7 @@ a {
 .item-2 {
     display: flex;
     flex-direction: row-reverse;
+    background: linear-gradient(90deg, #fff, #fff, #fff, #e7ceba);
     margin-bottom: 0;
     margin-bottom: 20px;
     padding: 20px;
