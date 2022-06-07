@@ -11,7 +11,8 @@ body {
     line-height: 1.4;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
-    background-color: #e7ceba;
+    background-color: #e7ceba ;
+    /* #e7ceba; */
 }
 
 a {
@@ -212,14 +213,16 @@ section button:hover {
 }
 
 h4 {
-    width: 33.33%;
+    /* width: 33.33%; */
+    width: fit-content;
+    padding: 0 30px 0 30px;
 }
 
 .right-link {
-    width: 33.33%;
+    width: fit-content;
     display: flex;
     justify-content: flex-end;
-    padding-right: 30px;
+    padding: 0 30px 0 30px;
     color: #fff;
 }
 
@@ -237,6 +240,14 @@ h4 {
     background-color: #fff;
     border:none;
 }
+
+address {
+    padding: 0 30px 0 30px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* MEDIA QUERIES*/
 
 @media(max-width: 768px) {
     .navbar {
@@ -263,13 +274,28 @@ h4 {
         width: auto;
     }
 
+
+    .section .container {
+        /* display: block; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .item-1,
     .item-2,
     .item-3  {
-        display: flex;
+        /* display: flex;
         flex-direction: column-reverse;
         justify-content: center;
-        align-items: center;
+        align-items: center; */ /*removed so they wont be stack inline column*/
+        margin: 30px;
+        max-width: fit-content;
+    }
+
+    .section img {
+        height: 20vh;
+        width: 30vh;
     }
 
     .item-2 img {
@@ -287,26 +313,25 @@ h4 {
     .item-3 button {
         margin-left: 100px;
         margin-top: 25px;
+        padding: 10px; /* makes out button text inside to be inline and not stack*/
     }
 
     .footer {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        height: 200px;
+        height: 100px;
     }
 
-    .left-items {
+    /* .left-items {
         margin-top: 20px;
-    }
+    } */ /* deleted to be the cause of having the address far down*/
 
     .right-link {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-right: 0px;
-        margin-bottom: 20px;
     }
 
 }
