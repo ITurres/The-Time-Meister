@@ -97,6 +97,7 @@ a {
 }
 
 .section img {
+    height: 253px;
     max-width: 400px;
     padding-left: 20px;
     border-top-right-radius: 30px;
