@@ -107,7 +107,7 @@ a {
 .section .container {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 23px;
     margin-bottom: 30px;
 }
 
@@ -232,6 +232,7 @@ h4 {
 .right-link a {
     background-color: #e7ceba;
     border: 3px solid #fff;
+    text-align: center;
     color: #fff;
     font-weight: 700;
     border-radius: 5px;
@@ -241,7 +242,7 @@ h4 {
 .right-link a:hover {
     color: rgb(18, 18, 18);
     background-color: #fff;
-    border:none;
+    border: 3px solid #e7ceba;
 }
 
 address {
@@ -249,6 +250,10 @@ address {
     line-height: 1.2;
     text-align: center;
 }
+
+
+
+
 
 /* MEDIA QUERIES*/
 
@@ -292,30 +297,27 @@ address {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center; */ /*removed so they wont be stack inline column*/
-        margin: 30px;
+        margin: 10px 30px 10px 30px;
         max-width: fit-content;
+
     }
 
-    .section img {
-        height: 20vh;
-        width: 30vh;
-    }
-
-    .item-2 img {
+    /* .item-2 img {
         margin-left: 35px; 
-    }
+    } */
 
     .section .text {
         text-align: center;
-        font-size:large;
+        font-size:small;
         padding-top: 20px;
     }
 
     .item-1 button,
     .item-2 button,
     .item-3 button {
-        margin-left: 100px;
-        margin-top: 25px;
+        margin: 25px 50px 0 50px;
+        /* margin-left: 50px;
+        margin-top: 25px; */
         padding: 10px; /* makes out button text inside to be inline and not stack*/
     }
 
@@ -336,5 +338,4 @@ address {
         justify-content: center;
         align-items: center;
     }
-
 }
