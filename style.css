@@ -339,3 +339,72 @@ address {
         align-items: center;
     }
 }
+
+/* 2nd*/
+
+@media (max-width: 480px) {
+
+    .navbar nav {
+          margin: 0 20px 0 20px;
+    }
+
+    .navbar a {
+        color: #fff;
+        margin-left:0;
+        font-size: 17px;
+    }
+
+    .title h1 {
+        color: #fff;
+        font-size: 2.5rem;
+        position: relative;
+    }
+
+    .item-1,
+    .item-2,
+    .item-3  {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+/* ading width to hte 3 imgs will shrink the container as well, creating margin all around*/
+    .item-1 img {
+        width: 100%;
+    }
+    .item-2 img {
+        width: 100%;
+    }
+    .item-3 img {
+        width: 100%;
+    }
+
+    .item-1 button,
+    .item-2 button,
+    .item-3 button {
+       margin: 20px 50px 0 60px; 
+
+    }
+
+    div button {
+        align-items: center;
+    }
+
+    .footer {
+       display: flex;
+       justify-content: space-evenly;
+       flex-direction: column-reverse;
+       height: 100%;
+       padding: 20px;
+    }
+
+    h4 {
+        width: fit-content;
+        padding: 10px 30px 10px 30px;
+        margin: 0;
+    }
+    
+   address {
+       padding-bottom: 10px;
+   }
+}
