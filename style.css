@@ -408,3 +408,17 @@ address {
        padding-bottom: 10px;
    }
 }
+
+/* 3rd*/
+
+@media (max-width: 1024px) {
+   
+    .item-1,
+    .item-2,
+    .item-3  {
+     margin: 10px 30px 10px 30px;
+   
+     ;
+    }
+  
+  }
